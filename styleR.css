@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bann{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-image: url(Op.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Register-form{
+    width: 400px;
+    height: 60vh;
+    top: 50%;
+left: 50%;
+border: 1px solid rgb(9, 9, 9);
+border-radius: 30px;
+transform: translate(-50%, -50%);
+position: absolute;
+overflow: hidden;
+background-color: rgb(56, 108, 108);
+background: transparent;
+
+}
+.nav{
+    width: 85%;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 5vh;
+
+    
+}
+
+
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+input{
+    overflow: hidden;
+    font-size: 16px;
+    margin-left: 4vh;
+    width: 300px;
+    padding: 15px 10px;
+    border: 1px solid rgb(5, 4, 4);
+    border-radius: 5px;
+color: rgb(8, 8, 8);
+
+}
+
+
+.A {
+    font-size: 3.5vh;
+    margin-top: 5.5vh;
+    
+ 
+
+}
+.B{
+    font-size: 3.5vh;
+
+}
+.C{
+    font-size: 3.5vh;
+}
+
+a{
+    text-decoration: none;
+    position: absolute;
+    bottom: 2vh;
+    left: 13.5vh;
+    
+    border-radius: 4px;
+    height: 3vh;
+    width: 11vh;
+    text-align: center;
+}
+p{
+    position: absolute;
+    right: 14.5vh;
+    
+}
+button{
+    width: 11vh;
+    height: 3vh;
+}
+
+h1{
+    font-size: 1.5vh;
+    color: antiquewhite;
+}
+
+h3{
+    font-size: 3.56vh;
+}
+
+span{
+    color: beige;
+    font-style: italic;
+}
